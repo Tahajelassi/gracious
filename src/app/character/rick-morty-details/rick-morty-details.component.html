@@ -1,0 +1,23 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{character?.name}}</h4>
+  <button type="button" class="close" aria-label="Close" (click)="closeModal()">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="modal-body">
+  <app-rick-morty-location
+    [showDetails]="true"
+    [character]="character">
+  </app-rick-morty-location>
+
+  <h5 class="text-center">Episodes</h5>
+  <app-rick-morty-episodes
+    class="row"
+    [character]="character"
+  >
+  </app-rick-morty-episodes>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-outline-dark" (click)="closeModal()">Close</button>
+</div>
+

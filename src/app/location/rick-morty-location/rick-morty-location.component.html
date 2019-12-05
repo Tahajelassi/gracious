@@ -1,0 +1,6 @@
+<p>Last dimension - {{location?.dimension}}</p>
+<ng-container *ngIf="showDetails">
+  <p>Name - {{location?.name}}</p>
+  <p>Type - {{location?.type}}</p>
+  <p>Created at- {{location?.created |date}}</p>
+</ng-container>
