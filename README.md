@@ -1,7 +1,8 @@
 # RickMortyApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
-##Gracious Front end developer task
+
+## Gracious Front end developer task
 
 This project was part of a job interview.
 it's a simple Angular app communicating with rick and morty api - ` https://rickandmortyapi.com/`.
